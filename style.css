@@ -22,31 +22,29 @@ a.nav-link {
     padding-right: 10px;
     margin-right: 5px;
 }
-/* Header */
-header {
-    display: flex;
-    height: 70px;
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
+
+.nav-link:hover {
+    color: rgb(211, 182, 21);
 }
 
-.logo {
-    display: flex;
+
+/* Header */
+
+.menu-container {
+    background-color: black;
+    width: 100%;
 }
 
 .logo-img {
     height: 100px;
 }
 
-#menu-container {
-    display: flex;
-    justify-content: space-between;
+
+.navbar-toggler-icon {
+    background-color: gold;
+    border: 3px solid gray;
 }
 
-nav a:hover{
-    color: rgb(211, 182, 21);
-}
 /* Index */
 
 /* Banner */

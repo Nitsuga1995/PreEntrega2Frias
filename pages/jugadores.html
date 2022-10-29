@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>Jugadores</title>
 </head>
@@ -12,21 +14,30 @@
 <body>
     <!-- Header -->
     <header class="menu-container">
-        <!-- Logo -->
-            <a href="../index.html">
-                <img src="../Images/laverCupHeader.png" alt="Laver Cup" class="logo-img">
-            </a>
-            <!-- Zona navegable-->
-        <div>
-            <nav>
-                <ul id="menu-container">
-                    <li><a href="historia.html" class="nav-link">Historia</a></li>
-                    <li><a href="jugadores.html" class="nav-link">Jugadores</a></li>
-                    <li><a href="entrandores.html" class="nav-link">Entrenadores</a></li>
-                    <li><a href="informacion.html" class="nav-link">Informacion</a></li>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../Images/laverCupHeader.png" alt="Laver Cup" class="logo-img"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="historia.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jugadores.html">Entrenadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entrandores.html">Jugadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion.html">Información</a>
+                </li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+            </div>
+        </nav>
     </header>
     <!-- Fin del Header -->
     <main>
@@ -139,6 +150,8 @@
         <span class="copyright">&copy;2022, CoderHouse. Todos los derechos reservados a Agustin Frias.</span>
     </footer>
     <!-- Fin del Footer -->
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>
