@@ -51,6 +51,13 @@ a.nav-link {
 
 /* Index */
 
+.carousel-inner {
+    margin: auto;
+    width: 65%;
+    border: 5px solid black;
+}
+
+
 /* Banner */
 .Img-Banner {
     width: 65%;
