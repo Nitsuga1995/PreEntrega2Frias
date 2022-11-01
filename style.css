@@ -23,6 +23,10 @@ a.nav-link {
     margin-right: 5px;
 }
 
+.navbar-nav {
+    margin-left: auto;
+}
+
 .nav-link:hover {
     color: rgb(211, 182, 21);
 }
