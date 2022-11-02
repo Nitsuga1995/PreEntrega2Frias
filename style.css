@@ -19,8 +19,6 @@ a.nav-link {
     color: white;
     -webkit-text-stroke: 0.5px black;
     font-weight: 600;
-    padding-right: 10px;
-    margin-right: 5px;
 }
 
 .navbar-nav {
@@ -29,6 +27,7 @@ a.nav-link {
 
 .nav-link:hover {
     color: rgb(211, 182, 21);
+    text-decoration: underline rgb(211, 182, 21);
 }
 
 
@@ -90,7 +89,7 @@ a.nav-link {
 }
 
 #Video {
-    width: 450px;
+    width: 465px;
     height: 250px;
 }
 
@@ -98,8 +97,7 @@ a.nav-link {
 .Brand-container {
     display: grid;
     gap: 10px;
-    grid-auto-flow: dense;
-    grid-auto-rows: 30rem;
+    grid-auto-rows: 27rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%,30rem), 1fr));
     margin-bottom: 25px;
 }
@@ -415,6 +413,13 @@ h3 {
 }
 
 .mb-2:hover {
+    color: rgb(211, 182, 21);
+    text-decoration: underline ;
+}
+
+
+.mb-3:hover {
+    text-decoration: underline rgb(211, 182, 21);
     color: rgb(211, 182, 21);
 }
 
