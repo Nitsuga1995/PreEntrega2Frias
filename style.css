@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    transition: 0.5s;
+    transition: 1s;
 }
 /* Estructura estetica del fondo */
 body {
@@ -59,6 +59,14 @@ a.nav-link {
     border: 5px solid black;
 }
 
+.carousel-control-prev {
+    width: 30%;
+}
+
+.carousel-control-next {
+    width: 30%;
+}
+
 .first-title {
     color: white;
     -webkit-text-stroke: 1px black;
@@ -97,7 +105,7 @@ a.nav-link {
 .Brand-container {
     display: grid;
     gap: 10px;
-    grid-auto-rows: 27rem;
+    grid-auto-rows: 30rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%,30rem), 1fr));
     margin-bottom: 25px;
 }
@@ -167,6 +175,17 @@ a.nav-link {
 }
 
 /* Jugadores */
+
+.jugadores-europa {
+        display: flex;
+        flex-direction: row
+    }
+
+.Jugadores-resto-del-mundo {
+    display: flex;
+    flex-direction: row
+}
+
 
 .logo-europa {
     width: auto;
@@ -304,6 +323,14 @@ a.nav-link {
 .Brand-container3 {
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 800px){
+    .Brand-container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .logoEuropa {
