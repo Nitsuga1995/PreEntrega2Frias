@@ -48,7 +48,8 @@ a.nav-link {
 }
 
 .navbar-toggler {
-    background-color: gold;
+
+    border-color: gold;
 }
 
 /* Index */
@@ -102,6 +103,14 @@ a.nav-link {
 #Video {
     width: 465px;
     height: 250px;
+    padding-left: 17%;
+}
+
+@media screen and (max-width: 800px){
+    #Video {
+        width: 355px;
+        height: 250px;
+    }
 }
 
 
@@ -141,12 +150,20 @@ a.nav-link {
     align-items: center;
 }
 
+
 .Primer-article2 {
     background: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .Brand-container2 {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .Historia {
@@ -161,6 +178,7 @@ a.nav-link {
     border: 2px solid white;
 }
 
+
 .Campeon-2021 {
     width: auto;
     height: auto;
@@ -169,12 +187,32 @@ a.nav-link {
     border: 2px solid white;
 }
 
+@media screen and (max-width: 800px){
+    .Campeon-2021 {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 320px;
+        margin-bottom: 3%;
+    }
+}
+
 .Campeon-2020 {
     width: auto;
     height: auto;
     max-width: 650px;
     max-height: 700px;
     border: 2px solid white;
+}
+
+@media screen and (max-width: 800px){
+    .Campeon-2020 {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 320px;
+        margin-bottom: 3%;
+    }
 }
 
 /* Jugadores */
@@ -332,8 +370,6 @@ a.nav-link {
     .Brand-container3 {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-left: 2%;
     }
 }
 
@@ -380,7 +416,7 @@ h3 {
 }
 
 .Biografia-borg {
-    width: 450px;
+    width: 380px;
     background: black;
     color: white;
     border: 2px solid white;
@@ -389,7 +425,7 @@ h3 {
 }
 
 .Biografia-McEnroe {
-    width: 450px;
+    width: 380px;
     background: black;
     color: white;
     border: 2px solid white;
@@ -407,14 +443,36 @@ h3 {
     align-items: center;
 }
 
-.Vancouver {
+.Vancouver-video {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.Vancouver {
+    height: 380px;
+    width: 650px;
+}
+
+@media screen and (max-width: 800px){
+    .Vancouver {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 310px;
+        margin-left: 3px;
+        padding-bottom: 2%;
+    }
+}
+
 .Brand-container5 {
     background-color: black;
+}
+
+@media screen and (max-width: 800px){
+    .Brand-container5 {
+        margin-bottom:  3%;
+    }
 }
 
 .Informacion {
@@ -438,6 +496,17 @@ h3 {
 
 .Maps {
     border-radius: 1em;
+}
+
+@media screen and (max-width: 800px){
+    .Maps {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 310px;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
 }
 
 /* Footer */
