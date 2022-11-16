@@ -1,0 +1,208 @@
+@import "../base/variables";
+
+.jugadores-europa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.jugadores-resto-del-mundo {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.logo-europa {
+width: auto;
+height: auto;
+max-width: 65px;
+max-height: 65px;
+border: 2px solid white;
+margin: 1%;
+}
+
+.jugador-europa {
+color: white;
+-webkit-text-stroke: 1px black;
+margin: 1%;
+text-align: center;
+text-decoration: underline white;
+}
+
+.jugador-resto-del-mundo {
+color: white;
+-webkit-text-stroke: 1px black;
+margin: 1%;
+text-align: center;
+text-decoration: underline white;    
+}
+
+@media screen and (max-width: 800px){
+.jugadores-europa {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.federer {
+width: auto;
+height: auto;
+max-width: 600px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px) {
+.federer {
+    width: 370px;
+    height: 400px;
+}
+}
+
+.nadal {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+.nole {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px){
+.nole {
+    width: 370px;
+    height: 400px;
+}
+}
+
+.murray {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px){
+.murray {
+    width: 370px;
+    height: 400px;
+}
+}
+
+.ruud {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px){
+.ruud {
+    width: 380px;
+    height: 400px;
+}
+}
+
+.griego {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px){
+.griego {
+    width: 380px;
+    height: 400px;
+}
+}
+
+.berretini {
+width: auto;
+height: auto;
+max-width: 650px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px){
+.berretini {
+    width: 400px;
+    height: 400px;
+}
+}
+
+.logo-resto-del-mundo {
+width: auto;
+height: auto;
+max-width: 65px;
+max-height: 65px;
+border: 2px solid white;
+margin: 1%;
+}
+
+@media screen and (max-width: 800px){
+.jugadores-resto-del-mundo {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.fritz {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+.felix {
+width: auto;
+height: auto;
+max-width: 400px;
+max-height: 450px;
+}
+
+.diego {
+width: auto;
+height: auto;
+max-width: 650px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px){
+.diego {
+    width: 400px;
+    height: 350px;
+}
+}
+
+.tiafoe {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+.miñaur {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+.sock {
+width: auto;
+height: auto;
+max-width: 450px;
+max-height: 450px;
+}
+
+@media screen and (max-width: 800px){
+.sock {
+    width: 360px;
+    height: 450px;
+}
+}
