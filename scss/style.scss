@@ -1,0 +1,20 @@
+/* Settings Básicos */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: 1s;
+}
+
+/* Estructura estetica del fondo */
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: url(/Images/fondoWeb.jpg) no-repeat;
+    background-size: cover
+    
+}
+@import "components/header";
+@import "components/footer";
+@import "components/main-index"

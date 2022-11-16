@@ -1,0 +1,34 @@
+header {
+    a.nav-link {
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    font-weight: 600;
+    }
+    .navbar-nav {
+    margin-left: auto;
+    }
+    
+    .nav-link:hover {
+    color: rgb(211, 182, 21);
+    text-decoration: underline rgb(211, 182, 21);
+    }
+
+    .navbar-toggler-icon {
+    background-color: gold;
+    border: 2px solid gray;
+    }
+    
+    .navbar-toggler {
+    border-color: gold;
+    }
+
+    .logo-img {
+    height: 100px;
+    }
+}
+
+.menu-container {
+    background-color: black;
+    width: 100%;
+    }   
