@@ -47,11 +47,29 @@ h3 {
     max-height: 600px;
 }
 
+@media screen and (max-width: 800px){
+    .borg {
+        width: 350px;
+        height: 290px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
+
 .mcEnroe {
     width: auto;
     height: auto;
     max-width: 450px;
     max-height: 395px;
+}
+
+@media screen and (max-width: 800px){
+    .mcEnroe {
+        width: 350px;
+        height: 290px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
 }
 
 .Biografia-borg {

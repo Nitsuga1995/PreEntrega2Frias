@@ -53,8 +53,8 @@ max-height: 450px;
 
 @media screen and (max-width: 800px) {
 .federer {
-    width: 370px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
 }
 }
 
@@ -65,6 +65,13 @@ max-width: 450px;
 max-height: 450px;
 }
 
+@media screen and (max-width: 800px) {
+    .nadal {
+        width: 350px;
+        height: 380px;
+    }
+    }
+
 .nole {
 width: auto;
 height: auto;
@@ -74,8 +81,8 @@ max-height: 450px;
 
 @media screen and (max-width: 800px){
 .nole {
-    width: 370px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
 }
 }
 
@@ -88,8 +95,8 @@ max-height: 450px;
 
 @media screen and (max-width: 800px){
 .murray {
-    width: 370px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
 }
 }
 
@@ -102,8 +109,8 @@ max-height: 450px;
 
 @media screen and (max-width: 800px){
 .ruud {
-    width: 380px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
 }
 }
 
@@ -116,8 +123,8 @@ max-height: 450px;
 
 @media screen and (max-width: 800px){
 .griego {
-    width: 380px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
 }
 }
 
@@ -130,8 +137,8 @@ max-height: 450px;
 
 @media screen and (max-width: 800px){
 .berretini {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
 }
 }
 
@@ -158,12 +165,26 @@ max-width: 450px;
 max-height: 450px;
 }
 
+@media screen and (max-width: 800px){
+    .fritz {
+        width: 350px;
+        height: 380px;
+    }
+    }
+
 .felix {
 width: auto;
 height: auto;
 max-width: 400px;
 max-height: 450px;
 }
+
+@media screen and (max-width: 800px){
+    .felix {
+        width: 350px;
+        height: 380px;
+    }
+    }
 
 .diego {
 width: auto;
@@ -174,8 +195,8 @@ max-height: 450px;
 
 @media screen and (max-width: 800px){
 .diego {
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 380px;
 }
 }
 
@@ -186,12 +207,26 @@ max-width: 450px;
 max-height: 450px;
 }
 
+@media screen and (max-width: 800px){
+    .tiafoe {
+        width: 350px;
+        height: 380px;
+    }
+    }
+
 .miñaur {
 width: auto;
 height: auto;
 max-width: 450px;
 max-height: 450px;
 }
+
+@media screen and (max-width: 800px){
+    .miñaur {
+        width: 350px;
+        height: 380px;
+    }
+    }
 
 .sock {
 width: auto;
@@ -202,7 +237,7 @@ max-height: 450px;
 
 @media screen and (max-width: 800px){
 .sock {
-    width: 360px;
-    height: 450px;
+    width: 350px;
+    height: 380px;
 }
 }

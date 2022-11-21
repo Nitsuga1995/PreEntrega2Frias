@@ -265,6 +265,14 @@ h3 {
   max-height: 600px;
 }
 
+@media screen and (max-width: 800px) {
+  .borg {
+    width: 350px;
+    height: 290px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
 .mcEnroe {
   width: auto;
   height: auto;
@@ -272,6 +280,14 @@ h3 {
   max-height: 395px;
 }
 
+@media screen and (max-width: 800px) {
+  .mcEnroe {
+    width: 350px;
+    height: 290px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
 .Biografia-borg {
   width: 360px;
   background: black;
@@ -342,8 +358,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .federer {
-    width: 370px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
   }
 }
 .nadal {
@@ -353,6 +369,12 @@ h3 {
   max-height: 450px;
 }
 
+@media screen and (max-width: 800px) {
+  .nadal {
+    width: 350px;
+    height: 380px;
+  }
+}
 .nole {
   width: auto;
   height: auto;
@@ -362,8 +384,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .nole {
-    width: 370px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
   }
 }
 .murray {
@@ -375,8 +397,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .murray {
-    width: 370px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
   }
 }
 .ruud {
@@ -388,8 +410,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .ruud {
-    width: 380px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
   }
 }
 .griego {
@@ -401,8 +423,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .griego {
-    width: 380px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
   }
 }
 .berretini {
@@ -414,8 +436,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .berretini {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 380px;
   }
 }
 .logo-resto-del-mundo {
@@ -440,6 +462,12 @@ h3 {
   max-height: 450px;
 }
 
+@media screen and (max-width: 800px) {
+  .fritz {
+    width: 350px;
+    height: 380px;
+  }
+}
 .felix {
   width: auto;
   height: auto;
@@ -447,6 +475,12 @@ h3 {
   max-height: 450px;
 }
 
+@media screen and (max-width: 800px) {
+  .felix {
+    width: 350px;
+    height: 380px;
+  }
+}
 .diego {
   width: auto;
   height: auto;
@@ -456,8 +490,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .diego {
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 380px;
   }
 }
 .tiafoe {
@@ -467,6 +501,12 @@ h3 {
   max-height: 450px;
 }
 
+@media screen and (max-width: 800px) {
+  .tiafoe {
+    width: 350px;
+    height: 380px;
+  }
+}
 .miñaur {
   width: auto;
   height: auto;
@@ -474,6 +514,12 @@ h3 {
   max-height: 450px;
 }
 
+@media screen and (max-width: 800px) {
+  .miñaur {
+    width: 350px;
+    height: 380px;
+  }
+}
 .sock {
   width: auto;
   height: auto;
@@ -483,8 +529,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .sock {
-    width: 360px;
-    height: 450px;
+    width: 350px;
+    height: 380px;
   }
 }
 .Five-title {
@@ -511,8 +557,8 @@ h3 {
   .Vancouver {
     display: flex;
     flex-direction: column;
-    width: 370px;
-    height: 310px;
+    width: 350px;
+    height: 290px;
     margin-left: 3px;
     padding-bottom: 2%;
   }
@@ -553,8 +599,8 @@ h3 {
   .Maps {
     display: flex;
     flex-direction: column;
-    width: 370px;
-    height: 310px;
+    width: 350px;
+    height: 290px;
     padding-top: 5%;
     padding-bottom: 2%;
   }
